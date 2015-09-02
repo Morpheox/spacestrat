@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<link rel="stylesheet" type="text/css" href="css/css.css">
+</head>
+<body>
+
+
+<div id="recursos">
+	<div class="recu2"><re id="met"></re>  <img class="ico" src="http://vignette3.wikia.nocookie.net/ogamer/images/a/aa/Metal.jpg/revision/latest?cb=20120620190117&path-prefix=es">
+	<re id="cri"></re>  <img class="ico" src="http://www.browsergamesforum.com.ar/images/icons/foros/ogame/236ogame1.jpg">
+	<re id="ura"></re>  <img class="ico" src="http://www.icon100.com/up/3495/256/10-Radioactive.png"></div>
+	<p id="numeros"></p><re id="muertes"></re><re id="victorias"></re>
+</div>
+<div class="filler">
+</div>
+<br><br>
+<div class="unit">
+Fighter <re id="ncaza"></re><br>
+ 200 <img class="ico" src="http://vignette3.wikia.nocookie.net/ogamer/images/a/aa/Metal.jpg/revision/latest?cb=20120620190117&path-prefix=es">  50 <img class="ico" src="http://www.browsergamesforum.com.ar/images/icons/foros/ogame/236ogame1.jpg"></img><br>
+
+<br>
+<img class="maimg" src="http://vignette2.wikia.nocookie.net/ogamer/images/2/2b/Cazador_Ligero.jpg/revision/latest/scale-to-width/180?cb=20120619093501&path-prefix=es"></img><br>
+Attack-10  Shields-5 Structure-120<br><br>
+<input type="number" value="1" id="numCaza"></input>    <button onclick="newCaza()">Build</button><br>
+</div>
+<div class="unit">
+Cruiser <re id="ncruc"></re><br>
+ 500 <img class="ico" src="http://vignette3.wikia.nocookie.net/ogamer/images/a/aa/Metal.jpg/revision/latest?cb=20120620190117&path-prefix=es">  300 <img class="ico" src="http://www.browsergamesforum.com.ar/images/icons/foros/ogame/236ogame1.jpg">  50 <img class="ico" src="http://www.icon100.com/up/3495/256/10-Radioactive.png"><br>
+
+<br>
+<img class="maimg" src="http://vignette2.wikia.nocookie.net/ogamer/images/e/ec/Xlarge_206.jpg/revision/latest/scale-to-width/180?cb=20110525140708&path-prefix=es"></img><br>
+Attack-50  Shields-25 Structure-400<br><br>
+<input type="number" value="1" id="numCrucero">    <button onclick="newCrucero()" >Build</button><br>
+</div>
+<div class="unit">
+Frigate <re id="nfrag"></re><br>
+ 1.000 <img class="ico" src="http://vignette3.wikia.nocookie.net/ogamer/images/a/aa/Metal.jpg/revision/latest?cb=20120620190117&path-prefix=es">  3.000 <img class="ico" src="http://www.browsergamesforum.com.ar/images/icons/foros/ogame/236ogame1.jpg">  500 <img class="ico" src="http://www.icon100.com/up/3495/256/10-Radioactive.png"><br>
+
+<br>
+<img class="maimg" src="http://vignette1.wikia.nocookie.net/ogamer/images/d/de/Xlarge_215.jpg/revision/latest?cb=20110604185253&path-prefix=es"></img><br>
+Attack-150  Shields-50 Structure-2000<br><br>
+<input type="number" value="1" id="numFragata">    <button onclick="newFragata()">Build</button><br>
+</div>
+<div class="unit">
+Galleon <re id="ngal"></re> <br>
+ 10.000 <img class="ico" src="http://vignette3.wikia.nocookie.net/ogamer/images/a/aa/Metal.jpg/revision/latest?cb=20120620190117&path-prefix=es">  2.000 <img class="ico" src="http://www.browsergamesforum.com.ar/images/icons/foros/ogame/236ogame1.jpg">  3.000 <img class="ico" src="http://www.icon100.com/up/3495/256/10-Radioactive.png"><br>
+
+<br>
+<img class="maimg" src="http://vignette4.wikia.nocookie.net/ogamer/images/e/eb/Nave_Batalla.jpg/revision/latest/scale-to-width/180?cb=20120619093443&path-prefix=es"></img><br>
+Attack-500  Shields-100 Structure-8.000<br><br>
+<input type="number" value="1" id="numGaleon">    <button onclick="newGaleon()">Build</button><br>
+</div>
+<div class="unit">
+Battleship <re id="nAco"></re> <br>
+ 50.000 <img class="ico" src="http://vignette3.wikia.nocookie.net/ogamer/images/a/aa/Metal.jpg/revision/latest?cb=20120620190117&path-prefix=es">  20.000 <img class="ico" src="http://www.browsergamesforum.com.ar/images/icons/foros/ogame/236ogame1.jpg">  10.000 <img class="ico" src="http://www.icon100.com/up/3495/256/10-Radioactive.png"><br>
+
+<br>
+<img class="maimg" src="http://vignette4.wikia.nocookie.net/ogamer/images/9/95/Xlarge_214.jpg/revision/latest/scale-to-width/180?cb=20110725101500&path-prefix=es"></img><br>
+Attack-5.000  Shields-2.000 Structure-30.000<br><br>
+<input type="number" value="1" id="numAcorazado">    <button onclick="newAcorazado()">Build</button><br>
+</div>
+<div class="controles">
+<re id="lvl"></re>
+
+<div id="planets"></div>
+<p id="batalla"></p>
+</div>
+
+<script type="text/javascript">
+
+var metal=10000;
+var crystal=5000;
+var uranium=1000;
+
+
+
+</script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
