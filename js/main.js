@@ -168,7 +168,7 @@ function clear(a){
 		document.getElementById('met').innerHTML=metal;
 		document.getElementById('cri').innerHTML=crystal;
 		document.getElementById('ura').innerHTML=uranium;
-		document.getElementById('muertes').innerHTML="Losses: "+kills;
+		document.getElementById('muertes').innerHTML="Kills: "+kills;
 		document.getElementById('victorias').innerHTML="Wins: "+wins;
 		var u1=0;
 		var u2=0;
