@@ -1,4 +1,4 @@
-# spacestrat
+# Spacestrat
 A Space Battle simulator
 And old web game i made some years ago
 
