@@ -364,7 +364,7 @@ function clear(a){
 			par.innerHTML=state(galaxia.planets[i].arm);
 			par.innerHTML+="<br> <img class='ico' src='http://vignette3.wikia.nocookie.net/ogamer/images/a/aa/Metal.jpg/revision/latest?cb=20120620190117&path-prefix=es'/> "+
 			galaxia.planets[i].pmetal+
-			" <img class='ico' src='http://www.browsergamesforum.com.ar/images/icons/foros/ogame/236ogame1.jpg'/> "
+			" <img class='ico' src='http://vignette2.wikia.nocookie.net/ogame/images/8/88/Crystal.PNG/revision/latest?cb=20130914121323'/> "
 			+galaxia.planets[i].pcrystal+
 			" <img class='ico' src='http://www.icon100.com/up/3495/256/10-Radioactive.png'/> "
 			+galaxia.planets[i].puranium;
